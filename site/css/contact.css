@@ -1,0 +1,100 @@
+body {
+    background-color: #3b536b;
+}
+
+h1 {
+    font-size: 270%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 25px;
+    border-radius: 25px;
+}
+
+textarea {
+    margin-left: 475px;
+}
+
+.center {
+    display: inline;
+    margin-right: 14%;
+    margin-left: 60%;
+    width: 24%;
+}
+
+.grid-container {
+    margin-top: -12%;
+    margin-right: 0%;
+    margin-left: 28%;
+}
+
+div {
+    align-items: center;
+    font-size: 50%;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+p {
+    text-align: left;
+    margin-left: 3%;
+    font-size: 20px;
+}
+
+.comment {
+    margin-left: 10%;
+    margin-top: -4%;
+}
+
+.randomgif {
+    margin-right: 55%;
+    margin-top: -20%;
+}
+
+.title-h1 {
+    text-align: center;
+}
+
+@media (max-width: 1860px) {
+    .center {
+        display: inline;
+        margin-left: 60%;
+        width: 24%;
+    }
+    .grid-container {
+        margin-top: -10%;
+        margin-right: 0%;
+        margin-left: 30.5%;
+    }
+    .randomgif {
+        margin-left: 7%;
+        margin-top: -70%;
+        margin-bottom: 3%;
+    }
+    .comment {
+        margin-left: 10%;
+        margin-top: -3.4%;
+    }
+}
+
+@media (max-width: 1450px) {
+    .center {
+        display: inline;
+        margin-left: 60%;
+        width: 24%;
+    }
+    .grid-container {
+        margin-top: -8%;
+        margin-right: 0%;
+        margin-left: 31%;
+    }
+    .randomgif {
+        margin-left: 5%;
+        margin-top: -50%;
+    }
+    .comment {
+        margin-left: 10%;
+        margin-top: -3.5%;
+    }
+}
