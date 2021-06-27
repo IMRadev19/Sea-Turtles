@@ -1,73 +1,75 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<link rel="stylesheet" href="../css/navbar.css">
-<link rel="stylesheet" href="../css/contact.css">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Contact | Sea Turtles</title>
-
+    <link rel="stylesheet" href="style/contact_us.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <title>Contacts_us</title>
 </head>
-
 <body>
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="">Tab1</a>
-        <a href="">Tab2</a>
-        <a href="" id="margins">Logo</a>
-        <a id="about-nav" href="about.html">About</a>
-        <a id="contact-nav" href="contact.html">Contact</a>
-        <a id="credits-nav" href="">Credits</a>
-        <div class="animation start-home"></div>
-    </nav>
+    <div class="container">
+        <h1>Connect With Us</h1>
+        <p>We would love to respond to your queries and help you. Feel free to get in touch with us.</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Sent your request</h3>
+                <form>
 
-    <h1 class="title-h1">Връзка с нас</h1>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Write your name here">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="text" placeholder="Write your phone number">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="Someonesomething@gmail.com">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="DemoDemoDemoDemo">
+                        </div>
+                    </div>
 
-    <img src="https://media4.giphy.com/media/QmH1tWupyLKgCNf4jJ/giphy.gif" alt="Gif" class="center">
-    <img src="https://media2.giphy.com/media/tj7q6n5L4qW7m/giphy.gif?cid=ecf05e47pd6lol9jynq6delygmcbh2qz78wg7h58j5wrm39e&rid=giphy.gif&ct=g" alt="a" class="randomgif">
-
-    <div class="grid-container">
-
-        <form method="get">
-
-            <textarea autofocus maxlength="300" name="comments" cols="40" rows="2" placeholder='type something..'>
-
-                </textarea>
-            <input type="submit" value="Submit">
-
-        </form>
-
-
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <h3>Reach Us</h3>
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>contactus@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>+359 088 888 888</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>#212, Grouf floor, 7th cross<br>
+                            Some layout, Some Road, Bulgaria<br>
+                            Burgas, 8000
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </div>
-
-    <br>
-
-    <br><br><br><br>
-
-    <p>При запитвания / препоръки, можете да ни пишете на<span style='font-size:27px;'>&#128073;</span></p>
-
-
-    <div class="comment">
-
-        <form action="mailto: imradev19@codingburgas.bg" method="post">
-
-            <textarea autofocus maxlength="300" name="comments" cols="40" rows="2" placeholder='type something..'>
-
-                    </textarea>
-
-            <input type="submit" value="Submit">
-
-        </form>
-
-    </div>
-
 </body>
-
 </html>
