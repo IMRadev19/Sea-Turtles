@@ -115,6 +115,9 @@ body {
     flex-flow: row wrap;
     margin-top: 25px;
 }
+p {
+    font-size: 22px;
+}
 
 .main {
     border-bottom-left-radius: 20px;
@@ -171,7 +174,7 @@ body {
     height: 450px;
     text-align: left;
     background: #3b536b;
-    width: 65%;
+    width: 41%;
     color: white;
 }
 
