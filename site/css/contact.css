@@ -82,8 +82,8 @@ tr td {
     padding-top: 20px;
 }
 body {
-    height: 6000px;
-    background: linear-gradient(180deg, #44A7C4 0%, #4F42B5 51%, #202176 75%);
+    height: 1008px;
+    background: linear-gradient(180deg, #44A7C4, #4F42B5);
     }
    nav{
     border-bottom-left-radius: 10px;
