@@ -44,42 +44,42 @@ body {
    }
    nav a:nth-child(2):hover~.animation{
     width: 6%;
-    left: 17.1%;
+    left: 17.5%;
    }
    nav a:nth-child(3){
     width: 5%;
    }
    nav a:nth-child(3):hover~.animation{
     width: 6%;
-    left: 30.5%;
+    left: 30.8%;
    }
    nav a:nth-child(4){
     width: 7.5%;
    }
    nav a:nth-child(4):hover~.animation{
     width: 8.5%;
-    left: 4.5%;
+    left: 55%;
    }
    nav a:nth-child(5){
-    width: 120px;
+    width: 6.5%;
    }
    nav a:nth-child(5):hover~.animation{
-    width: 120px;
-    left: 1507px;
+    width: 7.5%;
+    left: 57.7%;
    }
    nav a:nth-child(6){
-    width: 120px;
+    width: 7.5;
    }
    nav a:nth-child(6):hover~.animation{
-    width: 120px;
-    left: 590px;
+    width: 8.5%;
+    left: 72.3%;
    }
    nav a:nth-child(7){
-       width:110px;
+       width:7.5%;
    }
    nav a:nth-child(7):hover~.animation{
-    width: 110px;
-    left: 590px;
+    width: 8.5%;
+    left: 87.6%;
    }
   /* width */
   ::-webkit-scrollbar {
@@ -102,7 +102,6 @@ body {
     background: #555;
   }
   .Logo {
-    display: inline-block;
     height: 80px;
   }
   .navstyle {
