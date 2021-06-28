@@ -44,7 +44,10 @@
     height: 460;
     margin-left: 35px;
 }
-
+#slug {
+    border: solid 3px white;
+    height: 470px;
+}
 .cards {
     font-family: "Roboto", sans-serif;
     display: flex;
