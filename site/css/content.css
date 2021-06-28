@@ -10,6 +10,8 @@
 }
 
 .main {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
     border-top: solid 3px white;
     border-left: solid 3px white;
     border-bottom: solid 3px white;
@@ -23,6 +25,8 @@
 }
 
 #seaturtle {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
     border: solid 3px white;
     height: 470px;
 }
@@ -37,16 +41,22 @@
     background: #3b536b;
     width: 69.5%;
     color: white;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #landturtle {
     border: solid 3px white;
     height: 460;
     margin-left: 35px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
 }
 #slug {
     border: solid 3px white;
     height: 470px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .cards {
     font-family: "Roboto", sans-serif;
