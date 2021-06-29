@@ -6,7 +6,8 @@
     transition: all .2s linear;
 }
 body {
-    height: 1008px;
+    overflow: hidden;
+    height: 980px;
     background: linear-gradient(180deg, #44A7C4, #4F42B5);
 }
 .container {
@@ -14,57 +15,6 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
-.card {
-    height: 500px;
-    width: 290px;
-    margin: 20px;
-    box-shadow: 0 3px 5px #000;
-    border-radius: 10px;
-    overflow: hidden;
-    text-align: center;
-    background-color: #222;
-}
-.card .bg-image img {
-    width: 100%;
-    height: 230px;
-    object-fit: cover;
-    clip-path: polygon(0 0, 100% 0%, 100% 70%, 45% 100%, 0 70%);
-}
-.card .pic img {
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    border: 10px solid #222;
-    margin-top: -90px;
-    position: relative;
-}
-.card .info h3 {
-    color: #f0f0f0;
-    font-size: 20px;
-    padding: 10px 0;
-}
-.card .info span {
-    font-size: 15px;
-    color: #e74c3c;
-
-}
-.card .info p {
-    font-size: 13px;
-    padding: 10px 20px;
-    color:#999;
-}
-.card .info .icons a {
-    font-size: 20px;
-    text-decoration: none;
-    color: #e74c3c;
-    margin-top: 20px;
-    padding: 0 5px;
-}
-.card .info .icons a:hover {
-    color: #f0f0f0;
-
-}
-
 nav{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -113,8 +63,8 @@ nav a:nth-child(3){
     width: 5%;
 }
 nav a:nth-child(3):hover~.animation{
-    width: 6%;
-    left: 30.8%;
+    width: 7.5%;
+    left: 31.3%;
 }
 nav a:nth-child(4){
     width: 7.5%;
