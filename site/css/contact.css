@@ -84,6 +84,7 @@ tr td {
 body {
     height: 1008px;
     background: linear-gradient(180deg, #44A7C4, #4F42B5);
+    overflow: hidden;
     }
    nav{
     border-bottom-left-radius: 10px;
