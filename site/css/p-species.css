@@ -35,14 +35,14 @@ body {
    nav a:nth-child(1){
     width: 5%;
    }
-   nav .start-home, a:nth-child(1):hover~.animation{
+   nav  a:nth-child(1):hover~.animation{
     width: 7%;
     left: 3.2%;
    }
    nav a:nth-child(2){
     width: 6%;
    }
-   nav a:nth-child(2):hover~.animation{
+   nav .start-home, a:nth-child(2):hover~.animation{
     width: 7.5%;
     left: 16.9%;
    }

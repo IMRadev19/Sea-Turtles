@@ -39,18 +39,18 @@ body {
     left: 3.2%;
    }
    nav a:nth-child(2){
-    width: 5%;
+    width: 6%;
    }
    nav a:nth-child(2):hover~.animation{
-    width: 6%;
-    left: 17.1%;
+    width: 7.5%;
+    left: 16.9%;
    }
    nav a:nth-child(3){
     width: 5%;
    }
    nav a:nth-child(3):hover~.animation{
     width: 6%;
-    left: 30.8%;
+    left: 31.5%;
    }
    nav a:nth-child(4){
     width: 7.5%;
