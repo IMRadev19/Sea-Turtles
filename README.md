@@ -1,5 +1,6 @@
 # Hello, we are team Sea Turtles!
 <img src="site/images/logo_blue icon.png" width="300px">
+
 ## This is our team:
 - Ивайло Радев | Scrum Trainer | *<IMRadev19@codingburgas.bg>*
 - Мирена Джебарова | Frontend Developer | *<MSDzhebarova19@codingburgas.bg>*
