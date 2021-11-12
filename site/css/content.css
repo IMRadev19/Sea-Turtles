@@ -1,14 +1,6 @@
-* ,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .text-hold {
     margin-top: -100px;
-    width:100%;
+    width: 90%;
     height: 100vh;
     font-size: 30px;
     display: flex;
@@ -17,7 +9,7 @@
     padding: 0 1.5rem;
 }
 .blog-post {
-    width: 100%;
+    width: 90%;
     max-width: 98rem;
     padding: 5rem;
     background-color: #fff;
@@ -100,5 +92,8 @@
         min-width: 100%;
         max-width: 100%;
         transform: translate(0, -8rem);
+    }
+    .text-hold {
+        margin-top: 300px;
     }
 }
